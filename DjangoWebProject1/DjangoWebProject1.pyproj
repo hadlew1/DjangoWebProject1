@@ -72,6 +72,7 @@
     <Content Include="ERPApp\static\site.css" />
     <Content Include="ERPApp\templates\ERPApp\about.html" />
     <Content Include="ERPApp\templates\ERPApp\index.html" />
+    <Content Include="ERPApp\templates\ERPApp\layout.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
