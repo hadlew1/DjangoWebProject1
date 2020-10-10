@@ -64,10 +64,13 @@
     <Folder Include="DjangoWebProject1\" />
     <Folder Include="ERPApp\" />
     <Folder Include="ERPApp\migrations\" />
+    <Folder Include="ERPApp\static\" />
     <Folder Include="ERPApp\templates\" />
     <Folder Include="ERPApp\templates\ERPApp\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ERPApp\static\site.css" />
+    <Content Include="ERPApp\templates\ERPApp\about.html" />
     <Content Include="ERPApp\templates\ERPApp\index.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />

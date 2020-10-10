@@ -15,4 +15,5 @@ import ERPApp.views
 urlpatterns = [
     url(r'^$', ERPApp.views.index, name='index'),
     url(r'^home$', ERPApp.views.index, name='home'),
+    url(r'^about$', ERPApp.views.about, name ='about'),
 ]
