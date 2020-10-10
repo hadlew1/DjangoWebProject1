@@ -5,6 +5,7 @@
     <Name>DjangoWebProject1</Name>
     <RootNamespace>DjangoWebProject1</RootNamespace>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -37,6 +38,13 @@
     <Compile Include="app\views.py" />
     <Compile Include="app\__init__.py" />
     <Compile Include="app\migrations\__init__.py" />
+    <Compile Include="ERPApp\admin.py" />
+    <Compile Include="ERPApp\apps.py" />
+    <Compile Include="ERPApp\migrations\__init__.py" />
+    <Compile Include="ERPApp\models.py" />
+    <Compile Include="ERPApp\tests.py" />
+    <Compile Include="ERPApp\views.py" />
+    <Compile Include="ERPApp\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="DjangoWebProject1\__init__.py" />
     <Compile Include="DjangoWebProject1\settings.py" />
@@ -54,8 +62,13 @@
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="DjangoWebProject1\" />
+    <Folder Include="ERPApp\" />
+    <Folder Include="ERPApp\migrations\" />
+    <Folder Include="ERPApp\templates\" />
+    <Folder Include="ERPApp\templates\ERPApp\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ERPApp\templates\ERPApp\index.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
